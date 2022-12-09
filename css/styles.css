@@ -24,13 +24,17 @@ body {
   color: var(--primary-color);
   font-weight: bold;
 }
-.nav-item a {
+.navbar-brand:hover {
+  color: var(--secondary-color);
+}
+a.nav-link {
+  color: var(--secondary-color);
+}
+a.nav-link:hover {
   color: var(--primary-color);
+  font-weight: bold;
 }
 .navbar .navbar-nav .nav-link.active {
-  color: var(--primary-color);
-}
-.active {
   color: var(--primary-color);
   font-weight: bold;
 }
@@ -43,7 +47,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--primary-color);
   text-align: center;
   padding-bottom: 20px;
@@ -63,12 +68,36 @@ h2 {
   padding-top: 100px;
 }
 h3 {
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+h4 {
   font-size: 34px;
 }
-#images-leather-jacket {
-  max-width: 300px;
+.special-heading-2 {
+  color: var(--primary-color);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 42px;
+  padding-top: 20px;
+}
+.emojis {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+}
+.get-in-contact {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.get-in-contact:hover {
+  color: var(--primary-color);
+}
+#images-leaning-cool {
+  max-width: 330px;
   display: block;
   margin: 0 auto;
+  padding-top: 40px;
 }
 .about-button-container {
   text-align: center;
