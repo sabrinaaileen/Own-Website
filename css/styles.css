@@ -38,12 +38,22 @@ a.nav-link:hover {
   color: var(--primary-color);
   font-weight: bold;
 }
+.heading-picture {
+  padding-top: 20px;
+}
 .hero {
   background-color: var(--hero-color);
-  margin: 80px 50px 20px 50px;
+  margin: 30px 50px 20px 50px;
   padding: 20px 10px;
   border-radius: 5px;
   display: block;
+}
+.videos {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 h1,
 h2,
@@ -144,6 +154,11 @@ a.about-button:hover {
 .portfolio-paragraphs {
   font-size: 16px;
 }
+a.portfolio-links {
+  text-decoration: none;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
+}
 .footer-container {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -176,4 +191,42 @@ a.about-button:hover {
   border: 1px solid var(--primary-color);
   border-radius: 50px;
   padding: 5px 10px;
+}
+
+.project-images {
+  width: 400px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.contact-icons {
+  font-size: 22px;
+  color: var(--secondary-color);
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.contact-icons:hover {
+  color: white;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+ul.portals {
+  list-style: none;
+  text-align: center;
+}
+li.portals-item {
+  display: inline;
+}
+.portals-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 100ms ease-in-out;
+}
+.portals-item a:hover {
+  color: var(--secondary-color);
 }
