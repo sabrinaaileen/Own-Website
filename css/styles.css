@@ -230,3 +230,24 @@ li.portals-item {
 .portals-item a:hover {
   color: var(--secondary-color);
 }
+@media (max-width: 850px) {
+  .hero {
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  .heading-picture {
+    padding-top: 80px;
+    width: 600px;
+  }
+}
