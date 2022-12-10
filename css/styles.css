@@ -251,9 +251,12 @@ li.portals-item {
     display: none;
   }
   .portfolio-pictures {
-    width: 300px;
+    width: 250px;
   }
   .videos {
     width: 300px;
+  }
+  .project-images {
+    display: none;
   }
 }
