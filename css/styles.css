@@ -233,6 +233,7 @@ li.portals-item {
 @media (max-width: 850px) {
   .hero {
     margin: 0 auto;
+    margin-top: 50px;
   }
   h1 {
     font-size: 46px;
@@ -249,7 +250,10 @@ li.portals-item {
   .heading-picture {
     display: none;
   }
-  .hero {
-    margin-top: 50px;
+  .portfolio-pictures {
+    width: 300px;
+  }
+  .videos {
+    width: 300px;
   }
 }
