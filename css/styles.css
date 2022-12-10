@@ -247,7 +247,9 @@ li.portals-item {
     font-size: 24px;
   }
   .heading-picture {
-    padding-top: 80px;
-    width: 600px;
+    display: none;
+  }
+  .hero {
+    margin-top: 50px;
   }
 }
