@@ -40,6 +40,8 @@ a.nav-link:hover {
 }
 .heading-picture {
   padding-top: 20px;
+  display: block;
+  margin: 0 auto;
 }
 .hero {
   background-color: var(--hero-color);
