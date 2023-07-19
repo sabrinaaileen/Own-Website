@@ -44,10 +44,10 @@
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/acting.html">Acting</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
+              <a class="nav-link" href="/coding.html">Coding</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contact.html">Contact</a>
@@ -65,11 +65,13 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-8">
-            <h2>👋🏽 Hello there! I'm</h2>
-            <h1>Sabrina Aileen Hodapp</h1>
-            <h3>🇩🇪 Actress and Front-End Developer based in Munich, Germany</h3>
+            <h2 id="hello-there">👋🏽 Hello there! I'm</h2>
+            <h1 id="name">Sabrina Aileen Hodapp</h1>
+            <h3 id="based">
+              🇩🇪 Actress and Front-End Developer based in Munich, Germany
+            </h3>
             <p>
-              <a href="/contact.html" class="get-in-contact"
+              <a href="/contact.html" class="get-in-contact" id="time-to-meet"
                 >It's time to meet!</a
               >
             </p>
@@ -84,14 +86,25 @@
         </div>
       </div>
     </div>
+    <button class="german" id="german-one">Deutsch</button>
     <br />
-    <h2>Welcome to my Website!</h2>
-    <p>
-      So glad, that you landed here, so you get to know me better! The journey
-      was a wild one, that leaded me to study acting and then coding. What
-      amazing things can happen, when you just go for them. And keep in mind:
-      You are never to old to follow your dreams. Especially when they change
-      over the years.
+    <h2 id="welcome">Welcome to my Website!</h2>
+    <p id="introduction-text">
+      So glad, that you are here! Let me tell you my story, so you have the
+      possibility to get to know me better. Yes sure, I am an actress and I love
+      it. But last fall in fell in love with coding. Before I started my journey
+      with SheCodes, I got in touch with Python and I was surprised about how
+      fast I understood it and about how much fun it is to code. And now I can
+      code with HTML, CSS, Javascript and React. I have a GitHub profile and
+      know how to host on Netlify. I can work with Flexbox, APIs, Bootstrap,
+      SEO, VS Code, CodeSandbox and I know how to make a website responsive.
+      Next steps will be TypeScript and improving Python.
+      <br />
+      <br />
+      So this website is for both of my passions. You can get all the
+      informations of my upcoming performances, my showreel, my videos and the
+      informations about my coding projects.
+      <br />
       <br />
       Life can be hard sometimes. But these are the times that challenged me the
       most to become the person I want to be. And you will fail sometimes, and
@@ -106,17 +119,19 @@
     <br />
     <div class="hero">
       <div class="container">
-        <h4>The first Impression is everything</h4>
+        <h4 id="first-impression">The first Impression is everything</h4>
         <div class="row">
           <div class="col-md-8">
-            <p>
-              It's your choice: Get an innocent first look at me or click the
-              button for my whole portfolio of pictures and videos! And of
-              course you get any important link to my portal-profiles!
+            <p id="acting-overview">
+              Here you can find an overview of my upcoming performances and my
+              CV. You can also find more pictures here, my AboutMe and my
+              showreel. Enjoy!
             </p>
           </div>
           <div class="col-md-4 about-button-container">
-            <a href="/about.html" class="about-button">Watch it all!</a>
+            <a href="/acting.html" class="about-button" id="watch-acting"
+              >Acting</a
+            >
           </div>
         </div>
       </div>
@@ -177,16 +192,18 @@
       </div>
     </div>
     <div class="hero">
-      <h4>My Coding Work</h4>
+      <h4 id="coding-work">My Coding Work</h4>
       <div class="row">
         <div class="col-md-8">
-          <p>
-            Go straight to my Coding Work! From the first steps to the latest
+          <p id="coding-overview">
+            Here you can find my Coding Work. From the first steps to the latest
             accomplishment!
           </p>
         </div>
         <div class="col-md-4 about-button-container">
-          <a href="/work.html" class="about-button">Check it out!</a>
+          <a href="/coding.html" class="about-button" id="watch-coding"
+            >Check it out!</a
+          >
         </div>
       </div>
     </div>
@@ -221,5 +238,6 @@
         ></a>
       </div>
     </footer>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
