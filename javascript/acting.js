@@ -9,7 +9,8 @@ function changeTextTwo(event) {
     let actingIntroTextTwo = document.querySelector("#acting-intro-text-two");
     actingIntroTextTwo.innerHTML = "Ich hoffe, sie gefallen Ihnen!";
     let actingInfoText = document.querySelector("#acting-info-text");
-    actingInfoText.innerHTML = "";
+    actingInfoText.innerHTML =
+      "Kommissarin, SEK-Beamte, Bäuerin, rebellische Königstochter, aufgebrachte Souffleuse oder heilige Johanna, kann ich. Egal ob Theater oder Film, ich bin immer bereit, mich zu 100% auf meine Rolle einzulassen. Eine Stärke von mir ist mein Improvisationstalent. Nicht nur mit den Trillerpfeifen auf der Bühne ein absolutes Muss, sondern eine wunderbare Ergänzung für alle Momente des Schauspiels und des Lebens. ";
     let morePictures = document.querySelector("#more-photos");
     morePictures.innerHTML = "Noch mehr Bilder!";
     let morePicturesText = document.querySelector("#more-photos-text");

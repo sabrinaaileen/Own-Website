@@ -186,6 +186,9 @@ a.portfolio-links {
   font-family: var(--secondary-font-family);
   color: var(--secondary-color);
 }
+.portfolio-container {
+  margin-top: 20px;
+}
 .footer-container {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -291,6 +294,6 @@ li.portals-item {
     width: 300px;
   }
   .project-images {
-    display: none;
+    width: 250px;
   }
 }
