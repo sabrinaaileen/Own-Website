@@ -189,6 +189,10 @@ a.portfolio-links {
 .portfolio-container {
   margin-top: 20px;
 }
+#world-clock-project-portfolio {
+  padding-top: 65px;
+}
+
 .footer-container {
   padding-top: 50px;
   padding-bottom: 30px;
@@ -295,5 +299,9 @@ li.portals-item {
   }
   .project-images {
     width: 250px;
+  }
+  #world-clock-project-portfolio {
+    padding-top: 0px;
+    padding-bottom: 20px;
   }
 }
