@@ -192,6 +192,12 @@ a.portfolio-links {
 #world-clock-project-portfolio {
   padding-top: 65px;
 }
+#weather-application-portfolio {
+  padding-top: 50px;
+}
+#react-dictionary-portfolio {
+  padding-top: 100px;
+}
 
 .footer-container {
   padding-top: 50px;
@@ -301,7 +307,15 @@ li.portals-item {
     width: 250px;
   }
   #world-clock-project-portfolio {
-    padding-top: 0px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #weather-application-portfolio {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #react-dictionary-portfolio {
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
