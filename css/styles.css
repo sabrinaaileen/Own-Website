@@ -271,6 +271,12 @@ li.portals-item {
 .portals-item a:hover {
   color: var(--secondary-color);
 }
+#schauspielervideos-link {
+  color: var(--secondary-color);
+}
+#schauspielervideos-link:hover {
+  color: var(--primary-color);
+}
 
 @media (max-width: 1200px) {
   .portfolio-pictures {
