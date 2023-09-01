@@ -73,6 +73,9 @@
         So let's have a look at my videos and photos!
       </h1>
       <h3 id="acting-intro-text-two">I hope you enjoy it!</h3>
+      <p>
+        <a href="#event-card" id="button-jump-to-timetable">Go Timetable</a>
+      </p>
     </div>
     <button class="german" id="german-two" value="german">Deutsch</button>
     <br />
@@ -193,78 +196,196 @@
     <br />
 
     <div class="card text-center" id="events-card">
-      <div class="card-header">
+      <div class="card-header" role="tablist">
         <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="#">Upcoming</a>
+            <a
+              class="nav-link active"
+              id="nav-home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-home"
+              type="button"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+              >Upcoming</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Archive</a>
+            <a
+              class="nav-link"
+              id="nav-profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-profile"
+              type="button"
+              role="tab"
+              aria-controls="nav-profile"
+              aria-selected="false"
+              >Archive</a
+            >
           </li>
         </ul>
       </div>
-      <div class="card-body">
-        <h5 class="card-title">Upcoming Events</h5>
-        <p class="card-text">
-          My timetable for the next few months. Don't miss it!
-        </p>
-        <ul id="events-timetable">
-          <li>
-            21.09.2023 <strong>PREMIERE</strong>: die TELL nach Friedrich
-            Schiller im Einstein Kultur München
-          </li>
-          <li>
-            22.09.2023: die TELL nach Friedrich Schiller im Einstein Kultur
-            München
-          </li>
-          <li>
-            23.09.2023: die TELL nach Friedrich Schiller im Einstein Kultur
-            München
-          </li>
-          <br />
-          <li>
-            29.09.2023: Die THRILLERPFEIFEN - Mord auf der Esoterikmesse in der
-            Pasinger Fabrik München
-          </li>
-          <br />
-          <li>
-            05.10.2023: die TELL nach Friedrich Schiller im Einstein Kultur
-            München
-          </li>
-          <li>
-            06.10.2023: die TELL nach Friedrich Schiller im Einstein Kultur
-            München
-          </li>
-          <li>
-            07.10.2023: die TELL nach Friedrich Schiller im Einstein Kultur
-            München
-          </li>
-          <br />
-          <li>
-            21.10.2023: Die THRILLERPFEIFEN - Mord auf dem Bauernhof im
-            Hoftheater München
-          </li>
-          <br />
-          <li>
-            16.12.2023: Die THRILLERPFEIFEN - Mord beim Christbaumverkauf im
-            Hoftheater München
-          </li>
-        </ul>
-        <a
-          href="https://www.muenchner-heldentheater.de"
-          target="_blank"
-          class="btn"
-          id="button-heldentheater"
-          >Go Heldentheater</a
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+          tabindex="0"
         >
-        <br />
-        <a
-          href="https://thrillerpfeifen.de/steckbriefe.html"
-          target="_blank"
-          class="btn"
-          id="button-thrillerpfeifen"
-          >Go Thrillerpfeifen</a
+          <div class="card-body" id="event-card">
+            <h5 class="card-title">Upcoming Events</h5>
+            <p class="card-text">
+              My timetable for the next few months. Don't miss it!
+            </p>
+            <ul id="events-timetable">
+              <li>
+                21.09.2023 <strong>PREMIERE</strong>: die TELL nach Friedrich
+                Schiller im Einstein Kultur München
+              </li>
+              <li>
+                22.09.2023: die TELL nach Friedrich Schiller im Einstein Kultur
+                München
+              </li>
+              <li>
+                23.09.2023: die TELL nach Friedrich Schiller im Einstein Kultur
+                München
+              </li>
+              <br />
+              <li>
+                29.09.2023: Die THRILLERPFEIFEN - Mord auf der Esoterikmesse in
+                der Pasinger Fabrik München
+              </li>
+              <br />
+              <li>
+                05.10.2023: die TELL nach Friedrich Schiller im Einstein Kultur
+                München
+              </li>
+              <li>
+                06.10.2023: die TELL nach Friedrich Schiller im Einstein Kultur
+                München
+              </li>
+              <li>
+                07.10.2023: die TELL nach Friedrich Schiller im Einstein Kultur
+                München
+              </li>
+              <br />
+              <li>
+                21.10.2023: Die THRILLERPFEIFEN - Mord auf dem Bauernhof im
+                Hoftheater München
+              </li>
+              <br />
+              <li>
+                16.12.2023: Die THRILLERPFEIFEN - Mord beim Christbaumverkauf im
+                Hoftheater München
+              </li>
+            </ul>
+            <a
+              href="https://www.muenchner-heldentheater.de"
+              target="_blank"
+              class="btn"
+              id="button-heldentheater"
+              >Go Heldentheater</a
+            >
+            <br />
+            <a
+              href="https://thrillerpfeifen.de/steckbriefe.html"
+              target="_blank"
+              class="btn"
+              id="button-thrillerpfeifen"
+              >Go Thrillerpfeifen</a
+            >
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-profile"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+          tabindex="0"
         >
+          <div class="card-body" id="event-card"></div>
+          <h5 class="card-title">Past Events</h5>
+          <p class="card-text">
+            A short digression in past events and performances:
+          </p>
+          <ul id="events-timetable">
+            <li>
+              2023
+              <br />
+              Die Thrillerpfeifen - Mord auf dem Reiterhof,
+              Krimprovisationstheater, Bühne: Rossstall Germering
+              <br />
+              Die Thrillerpfeifen - Mord in der Schönheitsklinik,
+              Krimprovisationstheater, Bühne: Pasinger Fabrik München
+              <br />
+              Die Thrillerpfeifen - Mord beim Friseur, Krimprovisationstheater,
+              Bühne: Pasinger Fabrik München
+              <br />
+              Die Thrillerpfeifen - Mord im Wellnesshotel (Doppelvorstellung),
+              Krimprovisationstheater, Bühne: Pasinger Fabrik München
+              <br />
+              Die Thrillerpfeifen - Mord im Freibad, Krimprovisationstheater,
+              Bühne: Kultur-Etage Messestadt München
+            </li>
+            <li>
+              2022
+              <br />
+              Die Bakchen von Euripides, Regie: Bina Schröer, Bühne: theater...
+              und so fort München
+            </li>
+            <li>
+              2021
+              <br />
+              Die Prinzessinnendramen von Elfriede Jelinek, Regie: Bina Schröer,
+              Bühne: ISSA München
+              <br />
+              Leonce und Lena von Georg Büchner, Regie: Bernd Dechamps, Bühne:
+              theater... und so fort München
+            </li>
+            <li>
+              2020
+              <br />
+              Lieblingsmenschen von Laura de Weck, Regie: Bernd Dechamps, Bühne:
+              ISSA München
+              <br />
+              Die kahle Sängerin von Eugène Ionesco, Regie: Frank Schröder,
+              Bühne: ISSA München
+            </li>
+            <li>
+              2019
+              <br />
+              Geschlossene Gesellschaft von Jean-Paul Sartre, Regie: Christina
+              Hinterberger, Bühne: Studiobühne München
+              <br />
+              Die Stunde da wir nichts voneinander wussten von Peter Handke,
+              Regie: Gisela Maria Schmitz, Bühne: AGV München
+            </li>
+            <li>
+              2018
+              <br />
+              Tattoo von Igor Bauersima, Regie: Tamo Gvenetadze, Bühne:
+              Studiobühne München
+              <br />
+              Die Liebe zu den 3 Orangen nach Carlo Gozzi, Spielleitung: Jaume
+              Villalba, Bühne: Amphiteather Englischer Garten München
+            </li>
+            <li>
+              2017
+              <br />
+              Am Feuer nach Lukas Holliger im Teamtheater München, Regie: Katrin
+              Kazubko
+            </li>
+          </ul>
+          <a
+            href="https://thrillerpfeifen.de/steckbriefe.html"
+            target="_blank"
+            class="btn"
+            id="button-thrillerpfeifen"
+            >Go Thrillerpfeifen</a
+          >
+        </div>
       </div>
     </div>
     <br />

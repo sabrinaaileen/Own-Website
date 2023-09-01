@@ -87,6 +87,12 @@ h3 {
 h4 {
   font-size: 30px;
 }
+h5 {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
 #hello-there {
   padding-top: 40px;
   padding-bottom: 80px;
@@ -282,6 +288,10 @@ li.portals-item {
   display: flex;
   margin: 0 auto;
 }
+#event-card {
+  padding: 0px 0px;
+  padding-top: 10px;
+}
 #events-timetable {
   display: table;
   margin: 0 auto;
@@ -299,6 +309,17 @@ li.portals-item {
   border: 1px solid var(--secondary-color);
   background-color: var(--secondary-color);
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+#button-jump-to-timetable {
+  text-align: center;
+
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid var(--secondary-color);
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
 }
 
 @media (max-width: 1200px) {
