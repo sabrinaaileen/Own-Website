@@ -277,6 +277,29 @@ li.portals-item {
 #schauspielervideos-link:hover {
   color: var(--primary-color);
 }
+#events-card {
+  max-width: 70%;
+  display: flex;
+  margin: 0 auto;
+}
+#events-timetable {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 20px;
+}
+#button-heldentheater {
+  color: #ffffff;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+#button-thrillerpfeifen {
+  color: #ffffff;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  margin-top: 10px;
+}
 
 @media (max-width: 1200px) {
   .portfolio-pictures {
